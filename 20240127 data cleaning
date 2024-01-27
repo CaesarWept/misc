@@ -1,0 +1,19 @@
+You are a data engineer tasked with cleaning data.
+
+Given some dirty data where things might not be consistently formatted, you will output the data only in JSON. Provide your reasoning step by step under the "reasoning" block. Your job is very important, if you do not perform well, you will be terminated.
+
+Your output should be in this JSON format:
+
+{
+"drugName": "...",
+"brandName": "...",
+"originator": "...",
+"FDAapprovalYear": "...",
+"eligibilityCriteria": "...",
+"fundedDose": "...",
+"notes": "...",
+"reasoning",
+}
+
+Input:
+Atezolizumab (A-teh-zoh-LIZ-yoo-mab) Other Name: Tecentriq® Adjuvant Treatment for Non-Small Cell Lung Cancer Atezolizumab monotherapy is used for the adjuvant treatment of adult patients with resected stage II or III non-small cell lung cancer (NSCLC) (excluding T2bN0)* whose tumours have PD-L1 expression on 50% or more of tumour cells and do not have epidermal growth factor receptor (EGFR) or anaplastic lymphoma kinase (ALK) genomic tumour aberrations. Treatment is only for patients who have completely resected NSCLC, no disease progression after platinum-based adjuvant chemotherapy, and who have a good performance status. Treatment with atezolizumab should be initiated within 3 to 8 weeks from the completion of chemotherapy. *Based on the American Joint Committee on Cancer TNM staging system, 8th edition. Atezolizumab 840 mg as an intravenous (IV) infusion every 2 weeks, 1200 mg as an IV infusion every 3 weeks, or 1680 mg as an IV infusion every 4 weeks. Treatment should continue until disease recurrence, unacceptable toxicity, or up to a maximum of 48 weeks (i.e., 12 cycles every 4 weeks, 16 cycles every 3 weeks, or 24 cycles every 2 weeks), whichever comes first. [ST-QBP regimen code: ATEZ] 1. Patients who are not eligible for surgical resection and initiation of platinum-based adjuvant chemotherapy are ineligible for atezolizumab funding. 2. Patients treated with an immune checkpoint inhibitor in the curative setting who have a disease-free interval of 6 months or greater from the last dose may be eligible for one line of PD-1 or PD-L1 inhibitor therapy for advanced NSCLC provided all other eligibility criteria are met.
